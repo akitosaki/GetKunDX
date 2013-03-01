@@ -44,6 +44,10 @@ def PointTown():
     tlist = gkcommon.listcutter(target, charset)
     gkcommon.accesser(loginidname, loginid, loginpassname, loginpass,loginurl, tlist)
 
+#    #########mail2
+#    target = gkcommon.mailreader(name + '1_2', searchopt1_2, searchopt2, charset)
+#    tlist = gkcommon.listcutter(target, charset)
+#    gkcommon.accesser(loginidname, loginid, loginpassname, loginpass,loginurl, tlist)
 
     print('End PointTown')
 
